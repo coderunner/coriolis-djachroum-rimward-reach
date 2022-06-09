@@ -1,0 +1,41 @@
+{
+  "name": "coriolis-djachroum-rimward-reach",
+  "title": "Coriolis Djachroum and the Rimward Reach",
+  "description": "A compendium for the Coriolis Coriolis Djachroum and the Rimward Reach",
+  "version": "1.0.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "author": "Félix-Étienne Trépanier",
+  "system": ["yzecoriolis"],
+  "esmodules": ["./scripts/main.js"],
+  "packs": [
+    {
+      "name": "drr_journals",
+      "label": "DRR Journals",
+      "path": "packs/drr_journals.db",
+      "entity": "JournalEntry",
+      "package": "coriolis-djachroum-rimward-reach"
+    },
+    {
+      "name": "rimward_journals",
+      "label": "DRR - Rimward Reach Journals",
+      "path": "packs/rimward_journals.db",
+      "entity": "JournalEntry",
+      "package": "coriolis-djachroum-rimward-reach"
+    },
+    {
+      "name": "djachroum_journals",
+      "label": "DRR - Djachroum Journals",
+      "path": "packs/djachroum_journals.db",
+      "entity": "JournalEntry",
+      "package": "coriolis-djachroum-rimward-reach"
+    },
+    {
+      "name": "drr_scenes",
+      "label": "DRR - Rimward Reach Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "package": "coriolis-djachroum-rimward-reach"
+    }
+  ]
+}
